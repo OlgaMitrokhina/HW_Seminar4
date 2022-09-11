@@ -10,4 +10,4 @@ for (int i = 0; i < arr.Length; i++)
  arr [i] = Convert.ToInt32(Console.ReadLine());
 }
 
-Console.WriteLine ($"Ваш массив из 8 элементов - {"[" + string.Join (",", arr) + "]"} ");
+Console.WriteLine ($"Ваш массив из 8 элементов - {"[" + string.Join (", ", arr) + "]"} ");

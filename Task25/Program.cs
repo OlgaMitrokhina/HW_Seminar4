@@ -8,13 +8,10 @@
 
 
 Console.WriteLine ("Введите число A: ");
-int n1;
-n1 = Convert.ToInt32(Console.ReadLine());
+int n1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите число B: ");
-int n2;
-n2 = Convert.ToInt32(Console.ReadLine());
-int degree;
-degree = n1;
+int n2 = Convert.ToInt32(Console.ReadLine());
+int degree = n1;
 
 if (n2 > 0)
 {

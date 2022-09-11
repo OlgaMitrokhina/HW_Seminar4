@@ -12,15 +12,10 @@ Console.WriteLine ("Введите число: ");
 int n;
 n = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
-while (n > 0)
+while (n > 0 || n < 0)
 {
-sum = sum + n%10;
-n = n/10;
+  sum = sum + n%10;
+  n = n/10;
 }
-while (n < 0)
-{
-  Console.WriteLine ("Вы ввели неправильное число!");
-  return;
-}
-
+sum = Math.Abs(sum);
 Console.WriteLine ($"Сумма равна {sum}");
